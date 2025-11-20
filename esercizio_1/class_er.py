@@ -9,7 +9,7 @@ class EsprReg:# Definizione della classe EsprReg
         self.pattern = pattern
 
     def validate(self, string: str) -> str:# Definizione del metodo validate
-        if re.fullmatch(self.pattern, string):# Controlla se la stringa corrisponde al pattern
+        if re.match(self.pattern, string):# Controlla se la stringa corrisponde al pattern
             return "match"
         else:
             return "mismatch"
