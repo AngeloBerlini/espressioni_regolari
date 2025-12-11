@@ -1,0 +1,25 @@
+<!-- Scrivere un XML per realizzare documentazioni tecniche
+in cui viene specificato il linguaggio di programmazione di ogni documentazione.
+Per ogni documentazione specificare i contenuti previsti 
+(ad es. strutture dati statiche e dinamiche, funzioni, strutture di selezione, iterazione, ...).
+Per ogni contenuto fornire una spiegazione testuale e un esempio di codice.
+
+Scrivi anche l'XSD che ne definisce la struttura utilizzando elementi semplici, complessi, attributi, restrizioni, ecc.-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="documentazioni">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="linguaggio_di_programmazione" type="xs:string"/>
+                <xs:element name="struttura_dati_statica" type="xs:string"/>
+                <xs:element name="struttura_dati_dinamica" type="xs:string"/>
+                <xs:element name="funzioni" type="xs:string"/>
+                <xs:element name="strutture_di_selezione" type="xs:string"/>
+                <xs:element name="iterazione" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema> 
+

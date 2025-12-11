@@ -1,0 +1,22 @@
+<!-- Scrivere un XML per realizzare documentazioni tecniche
+in cui viene specificato il linguaggio di programmazione di ogni documentazione.
+Per ogni documentazione specificare i contenuti previsti 
+(ad es. strutture dati statiche e dinamiche, funzioni, strutture di selezione, iterazione, ...).
+Per ogni contenuto fornire una spiegazione testuale e un esempio di codice.
+
+Scrivi anche l'XSD che ne definisce la struttura utilizzando elementi semplici, complessi, attributi, restrizioni, ecc.-->
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<documentazioni>
+
+    <linguaggio_di_programmazione>Python</linguaggio_di_programmazione>    
+    <struttura_dati_statica></struttura_dati_statica>
+    <struttura_dati_dinamica></struttura_dati_dinamica>
+    <funzioni></funzioni>
+    <strutture_di_selezione></strutture_di_selezione>
+    <iterazione></iterazione>
+
+</documentazioni>
+

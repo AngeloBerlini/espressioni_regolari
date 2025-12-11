@@ -1,0 +1,22 @@
+<!--progettare mediante uno schema xsd un linguaggio xml che consenta di rappresentare una rubrica dei riferimenti a persone
+(nome,cognome,indirizzo,uno o più numeri di telefono,uno o più indirizzi di posta elettronica, sito web).
+produrre un documentoxml valido di esempio-->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rubrica>
+
+    <persona>
+        <nome>Mario</nome>
+        <cognome>Rossi</cognome>
+        <indirizzo>Via Napoli 67, 10120 Napoli, Italia</indirizzo>
+        <telefono>+39 06 1234567</telefono>
+        <telefono_lavoro>+39 333 7654321</telefono_lavoro>
+        <email_personale>mario.rossi@libero.com</email_personale>
+        <email_lavoro>mario.rossi@gmail.com</email_lavoro>
+        <sito_web>www.mariorossi.it</sito_web>
+    </persona>
+
+</rubrica>
+
+
